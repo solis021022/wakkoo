@@ -49,10 +49,10 @@ let c= parseInt(azul.value);
 
   res.innerHTML=   "RGB" + "(" + a + "," + b + ","  + c + ")";
   
-hexa.innerHTML="#"+convertirhexa(a)+convertirhexa(b)+convertirhexa(c);
+;
 
 hijo.style.backgroundColor="rgb("+ a + "," + b + ","  + c + ")";
-
+hexa.innerHTML="#"+convertirhexa(a)+convertirhexa(b)+convertirhexa(c)
 
 }
 
