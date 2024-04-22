@@ -14,7 +14,7 @@ document.querySelector("#ver").onclick=()=>{
     spinner.innerHTML="";
 
 
-  let table = "<table class='table'>";
+  let table = "<table class='table' width=100px>";
   for(i=1; i<=10; i++){
     table+="<tr><td>"+n+"</td><td></td><td>"+i+"</td><td>=</td><td>"+(n*i)+"</td></tr>";
   }
