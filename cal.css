@@ -1,0 +1,59 @@
+*{
+    padding: 1;
+    margin:  25;
+   
+  }
+  #hijo{
+    display:inline-block;
+  width:400px;
+   height: 500px;
+  background: linear-gradient(130deg,pink 23%,cyan 67%,orange 28%);
+  border: 15px ridge black;
+  box-shadow: 5px -0px 30px black;
+  margin :50px;
+  padding: 20px;
+  z-index: 2;
+  border-radius:5% 5% 5% 5%;
+  }
+  body{
+    text-align: center;
+    background: whitesmoke;
+    border: 100px;
+    
+  }
+  input{
+    background: white;
+    border-radius:5px 5px 5px 5px;
+    box-shadow: 5px -0px 7px black;
+    
+  }
+  input:focus{
+    background: darkturquoise;
+  }
+  
+  button{
+    
+    background:  lightblue;
+    font-size: 30px;
+    box-shadow: 5px -0px 10px black;
+    display: grid;
+    position: relative;
+    top: 60px;
+    left: 120px;
+    border-radius:7px 7px 7px 7px;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+  }
+  button:focus{
+    background: hotpink;
+    
+  }
+  button:hover{
+    transition: 2s all ease;
+    box-shadow: 4px 4px 4px 4px deeppink;
+  }
+  p{
+    font-size: 40px;
+    font: cursive;
+  }

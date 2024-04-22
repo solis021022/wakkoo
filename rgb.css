@@ -1,0 +1,25 @@
+
+#res{
+  text-align: center;
+  border: 5px solid skyblue;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  border-radius: 30px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+#hijo{
+  text-align: center;
+  border: 5px solid skyblue;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  border-radius: 30px;
+  
+  
+}

@@ -1,0 +1,32 @@
+body{
+    background: grey;
+    color: solid black;
+    transition: all ease 2s;
+  }
+  table{
+    color: white;
+    border: solid black;
+    transition: all ease 2s;
+  }
+  td{
+    border: solid black;
+  }
+  #i{
+    background: blue;
+  }
+  #n{
+    background: green;
+  }
+  #s{
+    background: yellow;
+    color: black;
+  }
+  #o1{
+    background: orange;
+  }
+  #o2{
+    background: red;
+  }
+  #o3{
+    background: purple;
+  }
