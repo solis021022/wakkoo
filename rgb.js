@@ -49,14 +49,15 @@ let c= parseInt(azul.value);
 
   res.innerHTML=   "RGB" + "(" + a + "," + b + ","  + c + ")";
   
-;
+
 
 hijo.style.backgroundColor="rgb("+ a + "," + b + ","  + c + ")";
-hexa.innerHTML="#"+convertirhexa(a)+convertirhexa(b)+convertirhexa(c)
 
+hexa.innerHTML="#"+convertirhexa(a)+convertirhexa(b)+convertirhexa(c);
 }
 
 function convertirhexa(valor){
 let hexa=(valor>16)?valor.toString(16).toUpperCase():"0"+valor.toString(16).toUpperCase();
 return hexa;
 }
+  
